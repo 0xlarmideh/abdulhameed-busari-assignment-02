@@ -10,7 +10,7 @@ function sumOfNumbers(arrayOfNumbers) {
   for(x of arrayOfNumbers){
     sum =  sum + x
     
-  }return (`The sum of the numbers in the array is: ${sum}`);
+  }return sum;
 }
 assignment.sumOfNumbers = sumOfNumbers;
 
@@ -21,7 +21,7 @@ function countEvenNumbers(arrayOfNumbers) {
   for (x of arrayOfNumbers){
     if(x % 2 === 0)
       count++
-  }return (`The count of even numbers in the array is: ${count}`)   
+  }return count   
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
